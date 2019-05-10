@@ -6,3 +6,9 @@ VALUES (91000, 'Beeulen', 'van', 'Rickerd', 17-02-2002, '2353XA', 'Leiderdorp', 
 (92000, 'Steuinen', 'van', 'Maarten', 11-07-2000, '2353AB', 'Leiderdorp', 60.2, 181, 20-05-2019),
 (93000, 'Vermeulen', 'van', 'Stijn', 08-01-2001, '2351BH', 'Leiderdorp', 75, 170, 02-03-2019),
 (94000, 'Heemskerk', 'van', 'Tim', 20-12-1998, '2365AZ', 'Leiderdorp', 78, 181, 01-01-2019);
+
+INSERT INTO klassen_studenten (ov_nummer, klas_code)
+VALUES (91000,'lo9e-amo1'),
+(92000,'lo9e-amo2'),
+(93000,'lo9e-amo3'),
+(94000,'lo8e-amo3');
