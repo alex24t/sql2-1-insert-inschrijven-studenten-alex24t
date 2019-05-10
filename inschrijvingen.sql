@@ -12,3 +12,7 @@ VALUES (91000,'lo9e-amo1'),
 (92000,'lo9e-amo2'),
 (93000,'lo9e-amo3'),
 (94000,'lo8e-amo3');
+
+UPDATE studenten
+SET geboortedatum = '1998-02-02'
+WHERE ov_nummer = 94000;
