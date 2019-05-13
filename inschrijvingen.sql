@@ -20,3 +20,8 @@ WHERE ov_nummer = 94000;
 UPDATE studenten
 SET actief = 0
 WHERE inschrijvings_datum <= '2017-01-01';
+
+SELECT ov_nummer, voornaam, tussenvoegsel, achternaam
+FROM studenten;
+LEFT JOIN 
+WHERE actief = 1;
